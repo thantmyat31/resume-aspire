@@ -14,7 +14,7 @@ const EDUCATION = [
     },
     {
         school: 'Diploma in Project Management',
-        startYear: '2019',
+        startYear: '2020',
         endYear: 'pending'
     }
 ];
@@ -42,11 +42,11 @@ const PERSONAL_SKILL = [
     },
     {
         name: 'React',
-        percent: 80
+        percent: 90
     },
     {
         name: 'React Native',
-        percent: 75
+        percent: 85
     }
 ];
 
@@ -112,6 +112,12 @@ const PROJECT_EXPERIENCE = [
         name: 'My Created Re-usable React Components',
         description: 'The collection of my created re-usable component for React.js.',
         sourceCode: 'https://github.com/thantmyat31/My-Created-React-Components',
+    },
+    {
+        name: 'Resume Aspire',
+        description: 'Resume aspire is a resume builder website to help the people who don\'t know how to make their resume form beautifully and impressively.',
+        sourceCode: 'https://github.com/thantmyat31/resume-aspire',
+        viewLive: 'https://resume-aspire.netlify.app/'
     },
     {
         name: 'Youtube Playlist App',
