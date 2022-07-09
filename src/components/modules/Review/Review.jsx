@@ -26,7 +26,6 @@ export default function Review({ isDrawerOpen }) {
     let options = {
         orientation: 'portrait',
         unit: 'mm',
-        // format: [210, 297*2]* 0.264583
         format: [formatWidth * 0.264583, formatHeight * 0.264583]  
     }
 

@@ -170,7 +170,7 @@ export default function AsideInputList({ category }) {
                                 <Button 
                                     className={styles.btnSubmit} 
                                     type="button" 
-                                    text="Submit Profile" 
+                                    text="Submit Education" 
                                     onClick={() => handleOnSubmit({ education })} />
                             </div>
                         </div>
@@ -242,7 +242,7 @@ export default function AsideInputList({ category }) {
                                 <Button 
                                     className={styles.btnSubmit} 
                                     type="button" 
-                                    text="Submit Profile" 
+                                    text="Submit Skills" 
                                     onClick={() => handleOnSubmit({ personalSkill, otherSkill })} />
                             </div>
                         </div>
@@ -299,7 +299,7 @@ export default function AsideInputList({ category }) {
                                 <Button 
                                     className={styles.btnSubmit} 
                                     type="button" 
-                                    text="Submit Profile" 
+                                    text="Submit Works" 
                                     onClick={() => handleOnSubmit({ workExperience })} />
                             </div>
                         </div>
@@ -350,7 +350,7 @@ export default function AsideInputList({ category }) {
                                 <Button 
                                     className={styles.btnSubmit} 
                                     type="button" 
-                                    text="Submit Profile" 
+                                    text="Submit Projects" 
                                     onClick={() => handleOnSubmit({ projectExperience })} />
                             </div>
                         </div>
