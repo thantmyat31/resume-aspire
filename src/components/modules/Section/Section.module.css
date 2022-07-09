@@ -1,0 +1,11 @@
+.section {
+    height:calc(100vh - 70px);
+    padding:100px 15px;
+    position:relative;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        height:auto;
+    }
+}

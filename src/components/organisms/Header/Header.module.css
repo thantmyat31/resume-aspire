@@ -1,0 +1,31 @@
+.header {
+    background-color:var(--header-bg-color);
+    padding:10px 15px;
+    width:100%;
+    box-shadow:0 4px 10px 1px #ccc;
+}
+.container {
+    max-width:1140px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo {
+    height:50px;
+}
+.logo img {
+    height:100%;
+}
+.nav {
+    display:flex;
+    align-items:center;
+}
+.nav a {
+    color:#fff;
+}
+.nav a:not(:first-of-type) {
+    margin-left:20px;
+}

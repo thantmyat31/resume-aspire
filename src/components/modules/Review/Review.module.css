@@ -1,0 +1,308 @@
+.container {
+    transition: 0.3s;
+    overflow:auto;
+}
+.container.open {
+    margin-left:430px;
+}
+.btnDownload {
+    display:block;
+    width:794px !important;
+    margin:30px auto 0;
+    background-color:#7d9b40 !important;
+    color:#fff;
+    box-shadow:0 3px 5px 1px #ccc;
+}
+.btnDownload:hover {
+    opacity:0.7;
+}
+.review {
+    width: 794px;
+    min-height: 942px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    margin-bottom:50px;
+    box-shadow:0 3px 10px 1px #ccc;
+    font-size:14px;
+}
+.basicInfo .section .sectionTitle {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    margin:6px 0;
+} 
+
+.basicInfo .section:not(:first-of-type) {
+    margin-top:24px;
+}
+.basicInfo .section div {
+    margin:6px 0;
+}
+.basicInfo .sectionProfile .avatar {
+    width:82px;
+    height:82px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:0 auto 12px;
+}
+.basicInfo .sectionProfile .avatar img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.basicInfo .sectionProfile .profile .name {
+    margin: 8px auto 24px;
+    font-size: 24px;
+    text-align: center;
+}
+.basicInfo .sectionProfile .profile .info {
+    margin-bottom:4px;
+    padding-bottom:4px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    word-break:break-word;
+    border-bottom:1px solid #ddd;
+}
+.basicInfo .sectionProfile .profile .info span {
+    margin-right:3px;
+    font-size:14px;
+    white-space:nowrap;
+    min-width:56px;
+    text-transform:capitalize;
+}
+
+.basicInfo .sectionAboutMe {
+    position: initial;
+}
+.basicInfo .sectionEducation .education {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+    margin-bottom:4px;
+}
+.basicInfo .sectionEducation .education p.school {
+    max-width:calc(65% - 7px);
+}
+.basicInfo .sectionEducation .education p.years {
+    max-width:35%;
+}
+.basicInfo .sectionSkill .skill {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.basicInfo .sectionSkill .skill .progress {
+    width:120px;
+    height:7px;
+    background-color:#ddd;
+    border-radius:3px;
+    position: relative;
+    overflow:hidden;
+}
+.basicInfo .sectionSkill .skill .progress .bar {
+    display:block;
+    height:100%;
+    background:yellowgreen;
+}
+
+.mainInfo .section {
+    margin-bottom:16px;
+}
+.mainInfo .section .sectionTitle {
+    margin-bottom:20px;
+}
+
+.mainInfo .section .sectionItem:not(:first-of-type) {
+    margin-top:18px;
+}
+.mainInfo .section .sectionItem .info {
+    font-size:18px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-end;
+    font-weight:500;
+}
+.mainInfo .section .sectionItem .info .time {
+    font-size:12px;
+    color:#999;
+}
+.mainInfo .section .sectionItem .position {
+    font-size:12.5px;
+    color:#999;
+    display:block;
+}
+.mainInfo .section .sectionItem .description {
+    margin-top:8px;
+}
+.mainInfo .section .sectionItem .link {
+    font-size:12.5px;
+    font-weight:600;
+    margin-top:5px;
+}
+
+
+
+
+/* REVIEW 1 TEMPLATE START */
+.review1_template {
+    display:flex;
+    flex-direction:row;
+}
+.review1_template .basicInfo {
+    width:40%;
+    padding:24px;
+}
+.review1_template .basicInfo .section .sectionTitle {
+    color:var(--review1-template-color);
+}
+.review1_template .mainInfo {
+    width:60%;
+    min-height:100%;
+    background:var(--review1-template-mainInfo-color);
+    padding:24px;
+}
+.review1_template .basicInfo .sectionProfile .profile .info span {
+    color: var(--review1-template-color);
+}
+.review1_template .mainInfo .section .sectionTitle {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    width: -webkit-max-content;
+    width: max-content;
+    line-height: 26px;
+    padding: 0 100px 0 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: var(--review1-template-color);
+}
+.review1_template .mainInfo .section .sectionTitle::after {
+    content: "";
+    display: block;
+    width: 18.4px;
+    height: 18.4px;
+    background: #f2f2f2;
+    position: absolute;
+    right: -9px;
+    top: 4px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.review1_template .mainInfo .section .sectionItem .link {
+    color:var(--review1-template-color);
+}
+
+
+
+/* REVIEW 2 TEMPLATE STARRT  */
+.review2_template {
+    display:flex;
+    flex-direction:column;
+    padding:24px;
+}
+.review2_template .basicInfo .section:not(:first-of-type) {
+    margin-top:10px;
+}
+.review2_template .basicInfo .section .sectionTitle {
+    font-size:20px;
+    position:relative;
+    color:var(--review2-template-color);
+    margin:15px 0;
+}
+.review2_template .basicInfo .section .sectionTitle::after {
+    content:'';
+    display:block;
+    width:100%;
+    height:1px;
+    background-color: #ddd;
+    position:absolute;
+    top:60%;
+    left:0;
+    transform:translateY(-50%);
+}
+.review2_template .basicInfo .section .sectionTitle span {
+    background-color:#fff;
+    padding-right:20px;
+    position:relative;
+    z-index:1;
+}
+.review2_template .sectionProfile {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+.review2_template .sectionProfile .profile {
+    order:1;
+    width:calc(100% - 130px);
+}
+.review2_template .sectionProfile .profile .name {
+    text-align:left;
+}
+.review2_template .sectionProfile .profile .profileList ul.infoList {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.review2_template .sectionProfile .profile .profileList ul.infoList li.info {
+    width:50%;
+    border-bottom:none;
+    color:var(--review2-template-color);
+    font-weight:600;
+}
+.review2_template .sectionProfile .avatar {
+    order:2;
+}
+.review2_template .basicInfo .sectionProfile .profile .info span {
+    display:none;
+}
+.review2_template .mainInfo .section .sectionTitle {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    margin:15px 0 20px;
+    position: relative;
+    color:var(--review2-template-color);
+}
+.review2_template .mainInfo .section .sectionTitle::after {
+    content:'';
+    display:block;
+    width:100%;
+    height:1px;
+    background-color: #ddd;
+    position:absolute;
+    top:60%;
+    left:0;
+    transform:translateY(-50%);
+}
+.review2_template .mainInfo .section .sectionTitle span {
+    background-color:#fff;
+    padding-right:20px;
+    position:relative;
+    z-index:1;
+}
+.review2_template .mainInfo .section .sectionItem .info {
+    font-size:16px;
+    font-weight:400;
+}
+.review2_template .mainInfo .section .sectionItem .link {
+    color:var(--review2-template-color);
+}
+.review2_template .basicInfo .sectionSkill .skill .name {
+    font-weight:500;
+}
+
+@media screen and (max-width: 1020px) {
+    .container {
+        padding:0 60px;
+    }
+}

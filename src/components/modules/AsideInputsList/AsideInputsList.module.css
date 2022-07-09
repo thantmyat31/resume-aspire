@@ -1,0 +1,95 @@
+.list {
+    width:374px;
+    padding:5px 15px 5px 5px;
+    overflow:auto;
+}
+.title {
+    font-size:24px;
+    color:#fff;
+    margin-bottom:15px;
+    padding-top:5px;
+}
+.group {
+    margin-bottom:15px;
+}
+.group .label {
+    display:block;
+    color:#fff;
+    margin-bottom:5px;
+}
+.group input,
+.group textarea {
+    width:100%;
+    padding:10px;
+    background:#757575;
+    color:#fff;
+    outline:none;
+    border:none;
+}
+.iterate {
+    margin-bottom:15px;
+}
+.iterate .group input {
+    margin-bottom:15px;
+}
+.group input::-webkit-input-placeholder,
+.group textarea::-webkit-textarea-placeholder {
+    color: #aaa;
+}
+
+.group input:-ms-input-placeholder,
+.group textarea:-ms-textarea-placeholder {
+    color: #aaa;
+}
+
+.group input::placeholder,
+.group textarea::placeholder {
+    color: #aaa;
+}
+.group .label.hasDelete {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.group .label.hasDelete .delete {
+    background: var(--button-delete-color);
+    border-radius:2px;
+    padding:2px 3px;
+    display:flex;
+    cursor: pointer;
+}
+.group .label.hasDelete .delete:hover {
+    opacity:0.7;
+}
+
+.template div {
+    text-transform: capitalize;
+    margin:15px 0;
+    cursor: pointer;
+    width:100%;
+    padding:10px;
+    background-color:#f6f6f6;
+    border-radius:3px;
+    text-align:center;
+}
+.template div.active {
+    background:var(--review1-template-color);
+    color:#fff;
+}
+.btnSubmitWrapper {
+    margin:15px 0;
+}
+.btnSubmit {
+    background:#7d9b40 !important;
+    color:#fff;
+}
+.btnSubmit:hover {
+    background:#7d9b40;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:768px) {
+    .list {
+        width: calc(100% - 56px);
+    }
+}

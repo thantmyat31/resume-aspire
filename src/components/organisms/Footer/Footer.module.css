@@ -1,0 +1,43 @@
+.footer {
+    padding:80px 15px;
+    background-color:var(--header-bg-color);
+}
+.footer p {
+    font-family:sans-serif;
+    text-align:center;
+    letter-spacing:2px;
+    font-size:14px;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+.footer p span.pipe {
+    display:inline-block;
+    height:20px;
+    width:1px;
+    background:#fff;
+    margin:0 15px;
+}
+.footer p a {
+    color:#fff;
+    text-decoration:none;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.footer p a .icon {
+    font-size:1.4em;
+    transition:0.1s;
+    margin-right:5px;
+}
+.footer p a:hover .icon {
+    transform:scale(1.1);
+}
+.footer p a:hover {
+    text-decoration:underline;
+}
+.footer p a.source:hover {
+    text-decoration:underline;
+}

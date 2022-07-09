@@ -1,0 +1,25 @@
+:root {
+  --review1-template-color: rgb(47, 87, 133);
+  --review1-template-mainInfo-color: #f6f6f6;
+  --review2-template-color: rgb(47, 87, 133);
+  --button-delete-color: #ad3c3c;
+  --header-bg-color:rgb(21, 163, 219);
+  --max-width: 1140px;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  width:100%;
+  min-height:100vh;
+}
+ul, ol, li {
+  list-style:none;
+}
+a {
+  text-decoration:none;
+}
