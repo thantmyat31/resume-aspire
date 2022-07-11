@@ -3,7 +3,11 @@ import resumeReducer from './resume/resume.reducer';
 import {createLogger} from 'redux-logger';
 
 let middlewares = [];
-middlewares.push(createLogger());
+let NODE_ENV = 'production';
+
+if(NODE_ENV === 'developemnt') {
+    middlewares.push(createLogger());
+}
 
 const store = configureStore({
     reducer: {
