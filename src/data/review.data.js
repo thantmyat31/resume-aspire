@@ -3,7 +3,8 @@ const INTRODUCTION = [
     {introduction: 'Working nearly 2.5 - 3 years as a full stack developer in the begining of developer life.'},
     {introduction: 'Then, over 3 years as a senior frontend developer and team leader.'},
     {introduction: 'Proficient in mostly JavaScript and it\'s libraries.'},
-    {introduction: 'Focus on data visiualization and analysis for now.'},
+    {introduction: 'Willing to learn more new technologies.'},
+    {introduction: 'Focus on data science and machine learning for now.'},
 ];
 
 const EDUCATION = [
@@ -94,19 +95,19 @@ const PROJECT_EXPERIENCE = [
         name: 'Covid-19 Tracker',
         description: 'Covid-19 tracker front-end project with react.js. Using open source data from - https://covid19.mathdro.id/api',
         sourceCode: 'https://github.com/thantmyat31/covid-19-tracker',
-        viewLive: 'https://covid19-tracker-tms.netlify.app/'
+        viewLive: 'https://covid19-tracker-tms.netlify.app'
     },
     {
         name: 'Hotel & Resort',
         description: 'Hotel & resort front-end project sample with react.js. State management with context api. Using Contentful for static data API.',
         sourceCode: 'https://github.com/thantmyat31/resort',
-        viewLive: 'https://react-resort-tms.netlify.app/'
+        viewLive: 'https://react-resort-tms.netlify.app'
     },
     {
         name: 'Travel Story Ticket',
         description: 'Online bus ticket selling website. Using React for frontend, Node/Express for API development and MongoDB for Database.',
         sourceCode: 'https://github.com/thantmyat31/travelstory-ticket',
-        viewLive: 'https://travelstory-ticket.herokuapp.com/'
+        viewLive: 'https://travelstory-ticket.herokuapp.com'
     },
     {
         name: 'My Created Re-usable React Components',
@@ -117,7 +118,13 @@ const PROJECT_EXPERIENCE = [
         name: 'Resume Aspire',
         description: 'Resume aspire is a resume builder website to help the people who don\'t know how to make their resume form beautifully and impressively.',
         sourceCode: 'https://github.com/thantmyat31/resume-aspire',
-        viewLive: 'https://resume-aspire.netlify.app/'
+        viewLive: 'https://resume-aspire.netlify.app'
+    },
+    {
+        name: 'Tip Tap',
+        description: 'Video sharing social media application with google login authentication.',
+        sourceCode: 'https://github.com/thantmyat31/tiptap',
+        viewLive: 'https://tiptap-amber.vercel.app'
     },
     {
         name: 'Youtube Playlist App',
