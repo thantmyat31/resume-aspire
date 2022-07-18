@@ -68,7 +68,7 @@ const OTHER_SKILL = [
 
 const WORK_EXPERIENCE = [
     {
-        name: 'Seasoft Vietname Technology Co.,Ltd.',
+        name: 'Seasoft Technology Vietnam Co.,Ltd.',
         startDate: '2019',
         endDate: '2022 (April)',
         position: 'Senior Frontend Developer & Team Leader',
